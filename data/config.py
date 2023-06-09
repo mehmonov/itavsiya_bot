@@ -4,7 +4,6 @@ from environs import Env
 env = Env()
 env.read_env()
 
-# .env fayl ichidan quyidagilarni o'qiymiz
-BOT_TOKEN = env.str("BOT_TOKEN")  # Bot toekn
-ADMINS = env.list("ADMINS")  # adminlar ro'yxati
-IP = env.str("ip")  # Xosting ip manzili
+ADMINS='5601850004'
+BOT_TOKEN='6296155194:AAEiBqd4CKP7rx2rGQAZY0oWPNVRqB0Sywk'
+IP='localhost'
